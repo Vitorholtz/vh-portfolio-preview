@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    padding: 0px 32px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: auto;
+    height: 80px;
+
+    .social-media-icons {
+        display: flex;
+        gap: 0px;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 100px;
+            transition: .3s ease-in;
+
+            &:hover {
+                background: #5C00B8;
+            }
+        }
+    }
+}
